@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>Momentum Copied</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-    <h1>Time until Christmas</h1>
-    <div class="js-clock">
-      <h2>00:00</h2>
+    <div class="wholeBox">
+      <div class="js-clock">
+        <h1>00:00</h1>
+      </div>
+      <div class="box1">
+        <form class="js-form form">
+          <input type="text" placeholder="what's ur name?" />
+        </form>
+        <h4 class="js-greeting greeting"></h4>
+      </div>
+      <div class="box2">
+        <form class="js-toDoForm">
+          <input type="text" placeholder="Add a list" />
+        </form>
+        <div class="box4">
+          <div class="pending">
+            <h1>Pending</h1>
+            <ul class="pendingList"></ul>
+          </div>
+          <div class="finished">
+            <h1>Finished</h1>
+            <ul class="finishedList"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="js-weather"></div>
     </div>
+
     <script src="index.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
